@@ -1,0 +1,5 @@
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem1Task8/obj/Debug/net6.0/Sem1Task8.csproj.AssemblyReference.cache
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem1Task8/obj/Debug/net6.0/Sem1Task8.GeneratedMSBuildEditorConfig.editorconfig
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem1Task8/obj/Debug/net6.0/Sem1Task8.AssemblyInfoInputs.cache
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem1Task8/obj/Debug/net6.0/Sem1Task8.AssemblyInfo.cs
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem1Task8/obj/Debug/net6.0/Sem1Task8.csproj.CoreCompileInputs.cache
