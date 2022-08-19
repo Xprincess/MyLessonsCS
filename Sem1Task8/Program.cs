@@ -1,18 +1,14 @@
 ﻿//Задача 8: Напишите программу, которая на вход принимает число (N),
 // а на выходе показывает все чётные числа от 1 до N
 
-Console.WriteLine ("Insert number: ");
+Console.WriteLine("В условие задачи четные числа должны быть больше 1, введите любое число больше 1");
 
-int number =Console.ToInt32 (Console.ReadLine());
+int number ,<=1;
 
-for ( int i=0; i<=20; i++) 
+while (number == 2+1);
+
 {
-if (i%2 == 0) {
-Console.Write( "{0} " , i);
+    if
 }
-}
-
  
-for (int x = 2; x < 101; x++)       
-if (x%2==0)            
-Console.WriteLine(x);
+    
