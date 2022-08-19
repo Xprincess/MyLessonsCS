@@ -1,14 +1,24 @@
 ﻿//Задача 8: Напишите программу, которая на вход принимает число (N),
 // а на выходе показывает все чётные числа от 1 до N
 
-Console.WriteLine("В условие задачи четные числа должны быть больше 1, введите любое число больше 1");
+Console.WriteLine("Insert number");
+int number = Convert.ToInt32(Console.ReadLine());
 
-int number ,<=1;
+int i = 2;
 
-while (number == 2+1);
+if (number <=1)
 
 {
-    if
+    Console.WriteLine("Insert number greater than 1");
+} 
+else
+{
+    Console.Write($"All even numbers from 1 to {number}:");
 }
- 
+while (i <= number)
+{
+    Console.Write(i + " ");
+    i = i+2;
+}
+
     
