@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/anastasiaaverkina/Desktop/MyLessonsCS/SemTask6/SemTask6.csproj",
+      "projectUniqueName": "/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem1Task6/SemTask6.csproj",
       "projectName": "SemTask6",
-      "projectPath": "/Users/anastasiaaverkina/Desktop/MyLessonsCS/SemTask6/SemTask6.csproj",
+      "projectPath": "/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem1Task6/SemTask6.csproj",
       "packagesPath": "/Users/anastasiaaverkina/.nuget/packages/",
-      "outputPath": "/Users/anastasiaaverkina/Desktop/MyLessonsCS/SemTask6/obj/",
+      "outputPath": "/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem1Task6/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/anastasiaaverkina/.nuget/NuGet/NuGet.Config"

@@ -1,32 +1,30 @@
 ﻿
 //Задача 4 Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
 
-Console.WriteLine("Insert the first number: ");
-int numbera = Convert.ToInt32 (Console.ReadLine ());
+Console.SetCursorPosition(40, 1);
 
-Console.WriteLine ("The first number is " + numbera);
+Console.WriteLine("Insert 3 numbers");
 
-Console.WriteLine("Insert the second number: ");
+Console.Write("Insert the first number: ");
+int number1 = Convert.ToInt32(Console.ReadLine());
 
-int numberb = Convert.ToInt32 (Console.ReadLine ());
+Console.Write("Insert the second number: ");
+int number2 = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine ("The second number is " + numberb);
+Console.Write("Insert the third number: ");
+int number3 = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Insert the third number: ");
-int numberc = Convert.ToInt32 (Console.ReadLine ());
-
-Console.WriteLine ("The third number is " + numberc);
-
-if (numbera = int.MaxValue)
+int max = number1;
+if (number1 > max)
 {
-    Console.WriteLine ("The biggest number is" + int.MaxValue);
+    max = number1;
 }
-else if (numberb = int.MaxValue)
+if (number2 > max)
 {
-    Console.WriteLine ("The biggest number is" + int.MaxValue);
+    max = number2;
 }
-else if (numberc = int.MaxValue)
+if (number3 > max)
 {
-    Console.WriteLine ("The biggest number is" + int.MaxValue);
+    max = number3;
 }
-//не работает, не понимаю как вывести максимальное число
+Console.Write($"Max number is {max} "); 
