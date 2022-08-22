@@ -1,0 +1,15 @@
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem2/bin/Debug/net6.0/Sem2
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem2/bin/Debug/net6.0/Sem2.deps.json
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem2/bin/Debug/net6.0/Sem2.runtimeconfig.json
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem2/bin/Debug/net6.0/Sem2.dll
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem2/bin/Debug/net6.0/Sem2.pdb
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem2/obj/Debug/net6.0/Sem2.csproj.AssemblyReference.cache
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem2/obj/Debug/net6.0/Sem2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem2/obj/Debug/net6.0/Sem2.AssemblyInfoInputs.cache
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem2/obj/Debug/net6.0/Sem2.AssemblyInfo.cs
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem2/obj/Debug/net6.0/Sem2.csproj.CoreCompileInputs.cache
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem2/obj/Debug/net6.0/Sem2.dll
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem2/obj/Debug/net6.0/refint/Sem2.dll
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem2/obj/Debug/net6.0/Sem2.pdb
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem2/obj/Debug/net6.0/Sem2.genruntimeconfig.cache
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem2/obj/Debug/net6.0/ref/Sem2.dll
