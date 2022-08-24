@@ -4,11 +4,11 @@
 // 782 -> 8
 // 918 -> 1
 
-int FindSecdigit (int number)
+int FindSecdigit (int number)//456
 {
-    int ed = number % 10;
-    int hun = number / 10;
-    int result = hun % 10;//я не понимаю, как оставить цифру посередине и не понимаю, как внести в result вторую цифру
+    int ed = number / 10;//456-убирется 6
+    int hun = number % 100;//456 -убирется 4
+    int result = ;//я не понимаю, как оставить цифру посередине и не понимаю, как внести в result вторую цифру
     return result;
 }
 
