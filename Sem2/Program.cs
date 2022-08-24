@@ -12,29 +12,13 @@ int FindBiggerDigit (int number)
 
     return max;
 }
-/*
-Задача 10: Напишите программу, 
-которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
-456 -> 5
-782 -> 8
-918 -> 1
-
-
 
 int randNumber = new Random().Next(10, 100);
 int BiggerDigit = FindBiggerDigit(randNumber);
 
 Console.WriteLine($"BiggerDigit of {randNumber} is {BiggerDigit}");
 
-
-
-
-
-
-
-
-
-
+/*
 
 //Напишите программу, которая выводит случайное трехзначное число и удаляет вторую цифру этого числа.
 
@@ -54,7 +38,6 @@ Console.WriteLine($"BiggerDigit of {randNumber} is {BiggerDigit}");
 // Console.WriteLine ($ "answer is {number}");
 
 /*/
-
 //Напишите программу, которая будет принимать на вход два числа и выводить, 
 //является ли второе число кратным первому. 
 //Если второе число не кратно числу первому, то программа выводит остаток от деления.
