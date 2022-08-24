@@ -31,7 +31,7 @@ Console.WriteLine($"Secdigit is {Secdig}");
 /*
 void ThirdDigit(int number)
 {
-    string numberText = Convert.ToString(number);
+    string numberText = Convert.ToString(number);//Превращаем int - string, , 
     if (numberText.Length > 2)
         Console.WriteLine("The third digit is " + numberText[2]);
     else
@@ -49,4 +49,19 @@ ThirdDigit(num);
 // 7 -> да
 // 1 -> нет
 
+/*
+void Week(int number)
+{
+    if (number > 5)
+        Console.WriteLine($"Today is {number} - weekend.");
+    else
+        Console.WriteLine($"Today is  {number} - it's a weekday.");
+    if (number > 7)
+        Console.WriteLine($"Today {number} - it's not a day of the week!");
 
+}
+
+Console.Write("Insert the number of the day (1-7): ");
+int num = Convert.ToInt32(Console.ReadLine());
+
+Week(num);
