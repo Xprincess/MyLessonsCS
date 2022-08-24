@@ -62,6 +62,26 @@ void Week(int number)
 }
 
 Console.Write("Insert the number of the day (1-7): ");
-int num = Convert.ToInt32(Console.ReadLine());
+int num = Convert.ToInt32(Console.ReadLine());//ReadLine always reads the input from the user in the form of a string. 
+//To get an integer value from the user, this string needs to be converted to Integer. The Convert. ToInt32 does this.
 
 Week(num);
+*/
+
+// //Второе решение задачи 15
+// void Week (int number)
+
+// {
+//     if( number == 1) Console.WriteLine ("Monday");
+//     if( number == 2) Console.WriteLine ("Tusday");
+//     if( number == 3) Console.WriteLine ("Wednesday");
+//     if( number == 4) Console.WriteLine ("Thursday");
+//     if( number == 5) Console.WriteLine ("Friday");
+//     if( number == 6) Console.WriteLine ("Saturday");
+//     if( number == 7) Console.WriteLine ("Sunday");
+
+// }
+
+// Console.WriteLine("Insert a day of the week");
+// int numb = Convert.ToInt32(Console.ReadLine());
+// Week (numb);
