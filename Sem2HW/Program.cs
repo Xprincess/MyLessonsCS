@@ -3,7 +3,7 @@
 // 456 -> 5
 // 782 -> 8
 // 918 -> 1
-
+/*
 
 int FindSecdigit (int number)//456
 {
@@ -16,7 +16,7 @@ int randNumber = new Random().Next(100, 1000);
 int SecDig = FindSecdigit(randNumber);   
   
 Console.WriteLine($"3 digit random number {randNumber}");     
-Console.WriteLine($"Secdigit is {Secdig}");
+Console.WriteLine($"Secdigit is {SecDig}");
 
 //Программа не работает,,
 
