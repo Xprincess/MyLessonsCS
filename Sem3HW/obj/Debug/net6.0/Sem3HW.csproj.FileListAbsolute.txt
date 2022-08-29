@@ -1,0 +1,15 @@
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem3HW/obj/Debug/net6.0/Sem3HW.csproj.AssemblyReference.cache
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem3HW/obj/Debug/net6.0/Sem3HW.GeneratedMSBuildEditorConfig.editorconfig
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem3HW/obj/Debug/net6.0/Sem3HW.AssemblyInfoInputs.cache
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem3HW/obj/Debug/net6.0/Sem3HW.AssemblyInfo.cs
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem3HW/obj/Debug/net6.0/Sem3HW.csproj.CoreCompileInputs.cache
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem3HW/bin/Debug/net6.0/Sem3HW
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem3HW/bin/Debug/net6.0/Sem3HW.deps.json
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem3HW/bin/Debug/net6.0/Sem3HW.runtimeconfig.json
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem3HW/bin/Debug/net6.0/Sem3HW.dll
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem3HW/bin/Debug/net6.0/Sem3HW.pdb
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem3HW/obj/Debug/net6.0/Sem3HW.dll
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem3HW/obj/Debug/net6.0/refint/Sem3HW.dll
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem3HW/obj/Debug/net6.0/Sem3HW.pdb
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem3HW/obj/Debug/net6.0/Sem3HW.genruntimeconfig.cache
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem3HW/obj/Debug/net6.0/ref/Sem3HW.dll
