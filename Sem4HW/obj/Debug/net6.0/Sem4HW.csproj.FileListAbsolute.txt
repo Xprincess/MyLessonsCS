@@ -1,0 +1,15 @@
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem4HW/bin/Debug/net6.0/Sem4HW
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem4HW/bin/Debug/net6.0/Sem4HW.deps.json
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem4HW/bin/Debug/net6.0/Sem4HW.runtimeconfig.json
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem4HW/bin/Debug/net6.0/Sem4HW.dll
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem4HW/bin/Debug/net6.0/Sem4HW.pdb
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem4HW/obj/Debug/net6.0/Sem4HW.csproj.AssemblyReference.cache
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem4HW/obj/Debug/net6.0/Sem4HW.GeneratedMSBuildEditorConfig.editorconfig
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem4HW/obj/Debug/net6.0/Sem4HW.AssemblyInfoInputs.cache
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem4HW/obj/Debug/net6.0/Sem4HW.AssemblyInfo.cs
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem4HW/obj/Debug/net6.0/Sem4HW.csproj.CoreCompileInputs.cache
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem4HW/obj/Debug/net6.0/Sem4HW.dll
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem4HW/obj/Debug/net6.0/refint/Sem4HW.dll
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem4HW/obj/Debug/net6.0/Sem4HW.pdb
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem4HW/obj/Debug/net6.0/Sem4HW.genruntimeconfig.cache
+/Users/anastasiaaverkina/Desktop/MyLessonsCS/Sem4HW/obj/Debug/net6.0/ref/Sem4HW.dll
