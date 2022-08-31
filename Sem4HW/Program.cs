@@ -11,6 +11,8 @@ int FindSum(int num)
 Console.Write("Imput positive integer number: ");
 int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine($"Sum of numbers from 1 to {a} is {FindSum(a)}");
+
+
 ////Задача № 2 - Напишите программу, которая принимает на вход число и выдаёт количество цифр в числе.
 
 /*
@@ -135,32 +137,32 @@ Console.WriteLine($"Sum of numbers  is {sum}");
 
 // Задача 29: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
 
-int[] CreateArray(int size)
-{
-    int[] newArray = new int[size];
+// int[] CreateArray(int size)
+// {
+//     int[] newArray = new int[size];
     
-    int i = 0;
+//     int i = 0;
 
-    while(i < size)
-    {
-        Console.Write($"Введите элемент массива под индексом {i}: ");
-        newArray[i] = Convert.ToInt32(Console.ReadLine());
-        i++;
-    }
+//     while(i < size)
+//     {
+//         Console.Write($"Введите элемент массива под индексом {i}: ");
+//         newArray[i] = Convert.ToInt32(Console.ReadLine());
+//         i++;
+//     }
 
-    return newArray;
-}
+//     return newArray;
+// }
 
-void ShowArray( int[] array)
-{
-    Console.WriteLine("Вывод массива: ");
-    for(int i = 0; i < array.Length; i++)
-        Console.Write(array[i] + " ");
-    Console.WriteLine();
-}
+// void ShowArray( int[] array)
+// {
+//     Console.WriteLine("Вывод массива: ");
+//     for(int i = 0; i < array.Length; i++)
+//         Console.Write(array[i] + " ");
+//     Console.WriteLine();
+// }
 
-Console.Write("Введите размер массива: ");
-int SizeArray = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите размер массива: ");
+// int SizeArray = Convert.ToInt32(Console.ReadLine());
 
-ShowArray(CreateArray(SizeArray));
+// ShowArray(CreateArray(SizeArray));
 
