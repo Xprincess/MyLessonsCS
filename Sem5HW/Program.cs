@@ -44,7 +44,7 @@ ShowArray(CreateRandomArray(10, 5 ,6));
 //Напишите программу, которая покажет количество чётных чисел в массиве.
 
 // [345, 897, 568, 234] -> 2
-
+/*
 internal class Program
 {
     private static void Main(string[] args)
@@ -98,7 +98,7 @@ internal class Program
     }
 }
 
-
+*/
 
 
 
@@ -108,23 +108,49 @@ internal class Program
 // [3, 7, 23, 12] -> 19
 // [-4, -6, 89, 6] -> 0
 
-// int[] CreateRandomArray(int size, int minValue, int maxValue)
-// {
-//     int[] newArray = new int[size];
-//     for(int i = 0; i < size; i++)
-//     {
-//     newArray[i] = new Random().Next(minValue, maxValue + 1);
-//     }
-//     return newArray;
-// }
-// void ShowArray(int[] array)
-// {
-//     for(int i = 0; i < array.Length; i++)
-//          {
-//             Console.Write(array[i] + " ");
-//          } 
-//          Console.WriteLine();
-// }       
-// ShowArray(CreateRandomArray(10, 5 ,6));
+int[] CreateRandomArray(int size, int minValue, int maxValue)
+{
+    int[] newArray = new int[size];
+    for(int i = 0; i < size; i++)
+    {
+    newArray[i] = new Random().Next(minValue, maxValue + 1);
+    }
+    return newArray;
+}
+void ShowArray(int[] array)
+{
+    for(int i = 0; i < array.Length; i++)
+         {
+            Console.Write(array[i] + " ");
+         } 
+         Console.WriteLine();
+}       
+ShowArray(CreateRandomArray(10, 5 ,6));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Задача 38: Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
+
+// [3 7 22 2 78] -> 76
+
+
+
 
 
