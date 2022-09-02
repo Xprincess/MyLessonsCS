@@ -107,7 +107,7 @@ internal class Program
 
 // [3, 7, 23, 12] -> 19
 // [-4, -6, 89, 6] -> 0
-
+/*
 int[] CreateRandomArray(int size, int minValue, int maxValue)
 {
     int[] newArray = new int[size];
@@ -125,13 +125,27 @@ void ShowArray(int[] array)
          } 
          Console.WriteLine();
 }       
-ShowArray(CreateRandomArray(10, 5 ,6));
 
+int FindSumOddPosition(int[] array)
+{
+    int sum = 0;
+    for(int i = 1; i < array.Length; i = i + 2)
+        sum+= array[i];
+    return sum;
+}
 
+Console.WriteLine("Input size of array: ");
+int size = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Input min possitible value: ");
+int min = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Input max possitible value: ");
+int max = Convert.ToInt32(Console.ReadLine());
+int [] myArray = CreateRandomArray(size, min, max);
+ShowArray(myArray);
+int sumNumbersArray = FindSumOddPosition(myArray);
+Console.WriteLine("The sum of elements at odd positions in the array: " + sumNumbersArray);
 
-
-
-
+*/
 
 
 
