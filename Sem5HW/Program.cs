@@ -149,6 +149,47 @@ Console.WriteLine("The sum of elements at odd positions in the array: " + sumNum
 // [3 7 22 2 78] -> 76
 
 
+double[] CreateRandomArray(int size, int minValue, int maxValue)
+{
+    double [] newArray = new double[size];
 
+    for (int i = 0; i < size; i++)
+        newArray[i] = new Random().Next(minValue, maxValue + 1) + new Random().NextDouble(); //Запишем случайное вещественное число (1 + 0,1)
+    return newArray;
+}
+
+void ShowArray(double[] array)
+{
+    for( int i = 0; i < array.Length; i++)
+        Console.Write($"[{array[i]}] ");
+    Console.WriteLine();    
+}
+
+double FindDifferenceMaxMinValue(double[] array) //Метод вычисления разницы между максимальным и минимальным элементами массива
+{
+    double minValue = array[0];
+    double maxValue = array[0];
+
+    for(int i = 0; i < array.Length; i++)
+    {
+        if(minValue > array[i]) minValue = array[i];
+        if(maxValue < array[i]) maxValue = array[i];
+    }
+    double result = maxValue - minValue;
+    return result;
+}
+
+Console.WriteLine("Input size of array: ");
+int size = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Input min possitible value: ");
+int min = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Input max possitible value: ");
+int max = Convert.ToInt32(Console.ReadLine());
+
+double [] myArray = CreateRandomArray(size, min, max);
+ShowArray(myArray);
+
+double diffMaxMin = FindDifferenceMaxMinValue(myArray);
+Console.WriteLine("The difference between the maximum and minimum array elements: " + diffMaxMin);
 
 
