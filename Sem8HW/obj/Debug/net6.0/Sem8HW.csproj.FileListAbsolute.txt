@@ -1,0 +1,15 @@
+/Users/anastasiaaverkina/Desktop/MyLessons/MyLessonsCS/Sem8HW/obj/Debug/net6.0/Sem8HW.csproj.AssemblyReference.cache
+/Users/anastasiaaverkina/Desktop/MyLessons/MyLessonsCS/Sem8HW/obj/Debug/net6.0/Sem8HW.GeneratedMSBuildEditorConfig.editorconfig
+/Users/anastasiaaverkina/Desktop/MyLessons/MyLessonsCS/Sem8HW/obj/Debug/net6.0/Sem8HW.AssemblyInfoInputs.cache
+/Users/anastasiaaverkina/Desktop/MyLessons/MyLessonsCS/Sem8HW/obj/Debug/net6.0/Sem8HW.AssemblyInfo.cs
+/Users/anastasiaaverkina/Desktop/MyLessons/MyLessonsCS/Sem8HW/obj/Debug/net6.0/Sem8HW.csproj.CoreCompileInputs.cache
+/Users/anastasiaaverkina/Desktop/MyLessons/MyLessonsCS/Sem8HW/bin/Debug/net6.0/Sem8HW
+/Users/anastasiaaverkina/Desktop/MyLessons/MyLessonsCS/Sem8HW/bin/Debug/net6.0/Sem8HW.deps.json
+/Users/anastasiaaverkina/Desktop/MyLessons/MyLessonsCS/Sem8HW/bin/Debug/net6.0/Sem8HW.runtimeconfig.json
+/Users/anastasiaaverkina/Desktop/MyLessons/MyLessonsCS/Sem8HW/bin/Debug/net6.0/Sem8HW.dll
+/Users/anastasiaaverkina/Desktop/MyLessons/MyLessonsCS/Sem8HW/bin/Debug/net6.0/Sem8HW.pdb
+/Users/anastasiaaverkina/Desktop/MyLessons/MyLessonsCS/Sem8HW/obj/Debug/net6.0/Sem8HW.dll
+/Users/anastasiaaverkina/Desktop/MyLessons/MyLessonsCS/Sem8HW/obj/Debug/net6.0/refint/Sem8HW.dll
+/Users/anastasiaaverkina/Desktop/MyLessons/MyLessonsCS/Sem8HW/obj/Debug/net6.0/Sem8HW.pdb
+/Users/anastasiaaverkina/Desktop/MyLessons/MyLessonsCS/Sem8HW/obj/Debug/net6.0/Sem8HW.genruntimeconfig.cache
+/Users/anastasiaaverkina/Desktop/MyLessons/MyLessonsCS/Sem8HW/obj/Debug/net6.0/ref/Sem8HW.dll
