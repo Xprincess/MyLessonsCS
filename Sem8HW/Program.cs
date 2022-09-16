@@ -68,7 +68,7 @@ SortMassive(newArray);
 Show2Darray(newArray);
 */
 
-//////Task56: Задайте прямоугольный двумерный массив. Напишите программу, которая будет находить строку с наименьшей суммой элементов.
+//////Task 56: Задайте прямоугольный двумерный массив. Напишите программу, которая будет находить строку с наименьшей суммой элементов.
 /*
 int [,] CreateRandome2dArray()
 {
@@ -131,22 +131,22 @@ Show2dArray(newArray);
 MinSumElements(newArray);
 */
 
-//-----Задача 58: Задайте две матрицы. Напишите программу, которая будет находить произведение двух матриц.
-
-/*int [,] CreateRandome2dArray()
+/////Task 58: Задайте две матрицы.(двумерный массив) Напишите программу, которая будет находить произведение двух матриц.
+/*
+int [,] CreateRandome2dArray()
 {
-    Console.Write("Введите количество строк: ");
-    int rows = Convert.ToInt32(Console.ReadLine());
-    Console.Write("Введите количество столбцов: ");
-    int colums = Convert.ToInt32(Console.ReadLine());
-    Console.Write("Введите минимально возможное значение: ");
-    int minValue = Convert.ToInt32(Console.ReadLine());
-    Console.Write("Введите максимально возможное значение: ");
-    int maxValue = Convert.ToInt32(Console.ReadLine());
-    int[,] newArray = new int[rows, colums];
+    Console.Write("Input number of rows: "); 
+    int rows = Convert.ToInt32(Console.ReadLine()); 
+    Console.Write("Input number of columns: ");
+    int columns = Convert.ToInt32(Console.ReadLine()); 
+    Console.Write("Input the min possible value: ");
+    int minValue = Convert.ToInt32(Console.ReadLine()); 
+    Console.Write("Input the min possible value: "); 
+    int maxValue = Convert.ToInt32(Console.ReadLine()); 
+    int [,] newArray = new int [rows, columns];
     
     for(int i = 0; i < rows; i++)
-        for(int j = 0; j < colums; j++)
+        for(int j = 0; j < columns; j++)
             newArray[i,j] = new Random().Next(minValue,maxValue +1);
     
     return newArray;
@@ -167,7 +167,7 @@ int[,] MultiplicationMatrix(int[,] array, int[,] array1)
     int rows = array1.GetLength(0);
     int colums = array.GetLength(1);
     int[,] newArray = new int[rows, colums];
-    if(rows != colums) Console.WriteLine("Данные матрицы умножать нельзя!");
+    if(rows != colums) Console.WriteLine("Matrix cannot be multiplied!");
     else
         
         for(int i = 0; i < rows; i++)
@@ -184,35 +184,35 @@ int[,] MultiplicationMatrix(int[,] array, int[,] array1)
         }
         return newArray;
 }
-Console.WriteLine("Заполнение первой матрицы: ");
+Console.WriteLine("Input the first matrix: ");
 int[,] newArray1 = CreateRandome2dArray();
-Console.WriteLine("\nЗаполнение второй матрицы: ");
+Console.WriteLine("\nInput the second matrix: ");
 int[,] newArray2 = CreateRandome2dArray();
 Show2dArray(newArray1);
 Show2dArray(newArray2);
-Console.WriteLine("\nРезультат умножения двух матриц: ");
+Console.WriteLine("\nMatrix multiplication result is: ");
 int[,] newArray3 = MultiplicationMatrix(newArray1, newArray2);
-Show2dArray(newArray3);*/
+Show2dArray(newArray3);
+*/
 
-
-//-----Задача 60. Сформируйте трёхмерный массив из неповторяющихся двузначных чисел. Напишите программу, которая будет построчно выводить массив, добавляя индексы каждого элемента.
+//Task 60. Сформируйте трёхмерный массив из неповторяющихся двузначных чисел. Напишите программу, которая будет построчно выводить массив, добавляя индексы каждого элемента.
 /*
 int [,,] CreateRandome3dArray()
 {
-    Console.Write("Введите количество строк: ");
+   Console.Write("Input number of rows: ");
     int rows = Convert.ToInt32(Console.ReadLine());
 
-    Console.Write("Введите количество столбцов: ");
-    int colums = Convert.ToInt32(Console.ReadLine());
+    Console.Write("Input number of columns : ");
+    int columns = Convert.ToInt32(Console.ReadLine());
 
-    Console.Write("Введите количество колонок: ");
-    int colums1 = Convert.ToInt32(Console.ReadLine());
+    Console.Write("Input number of columns1: ");
+    int columns1 = Convert.ToInt32(Console.ReadLine());
 
-    int[,,] newArray = new int[rows, colums, colums1];
+    int[,,] newArray = new int[rows, columns, columns1];
     
     for(int i = 0; i < rows; i++)
-        for(int j = 0; j < colums; j++)
-            for(int k = 0; k < colums1; k++)
+        for(int j = 0; j < columns; j++)
+            for(int k = 0; k < columns1; k++)
                 newArray[i,j,k] = GenerateUniqueNumber();
     
     return newArray;
@@ -233,17 +233,17 @@ void Show3dArray(int[,,] array)
     }
 }
 
-HashSet<int> numbers = new HashSet<int>(); //---Создание динамической неупорядоченной коллекции
+HashSet<int> numbers = new HashSet<int>(); 
 Random rand = new Random();
 
 int GenerateUniqueNumber()
 {
     while (true)
     {
-        var n = rand.Next(10, 100); //---Генерируем случайный уникальный номер из заданного диапазона
-        if (!numbers.Contains(n))  //---Проверяем на неповторяемость
+        var n = rand.Next(10, 100); 
+        if (!numbers.Contains(n))  
         {
-            numbers.Add(n); //--Добавляем в коллецию
+            numbers.Add(n); 
             return n;
         }
     }
