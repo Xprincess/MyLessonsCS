@@ -3,18 +3,15 @@
 //////////////////////////////////////////////////////////////////////////////////////
 //Task54: Задайте двумерный массив. Напишите программу, которая упорядочит 
 //по убыванию элементы каждой строки двумерного массива.
-
+/*
 int[,] RandomArray2d() 
 {
     Console.Write("Input number of rows: "); 
     int rows = Convert.ToInt32(Console.ReadLine()); 
-
     Console.Write("Input number of columns: ");
     int columns = Convert.ToInt32(Console.ReadLine()); 
-
     Console.Write("Input the min possible value: ");
     int minValue = Convert.ToInt32(Console.ReadLine()); 
-
     Console.Write("Input the min possible value: "); 
     int maxValue = Convert.ToInt32(Console.ReadLine()); 
 
@@ -69,24 +66,24 @@ int[,] newArray = RandomArray2d();
 Show2Darray(newArray); 
 SortMassive(newArray); 
 Show2Darray(newArray);
-
+*/
 
 //////Task56: Задайте прямоугольный двумерный массив. Напишите программу, которая будет находить строку с наименьшей суммой элементов.
-
-/*int [,] CreateRandome2dArray()
+/*
+int [,] CreateRandome2dArray()
 {
-    Console.Write("Введите количество строк: ");
-    int rows = Convert.ToInt32(Console.ReadLine());
-    Console.Write("Введите количество столбцов: ");
-    int colums = Convert.ToInt32(Console.ReadLine());
-    Console.Write("Введите минимально возможное значение: ");
-    int minValue = Convert.ToInt32(Console.ReadLine());
-    Console.Write("Введите максимально возможное значение: ");
-    int maxValue = Convert.ToInt32(Console.ReadLine());
-    int[,] newArray = new int[rows, colums];
+    Console.Write("Input number of rows: "); 
+    int rows = Convert.ToInt32(Console.ReadLine()); 
+    Console.Write("Input number of columns: ");
+    int columns = Convert.ToInt32(Console.ReadLine()); 
+    Console.Write("Input the min possible value: ");
+    int minValue = Convert.ToInt32(Console.ReadLine()); 
+    Console.Write("Input the min possible value: "); 
+    int maxValue = Convert.ToInt32(Console.ReadLine()); 
+    int[,] newArray = new int[rows, columns];
     
     for(int i = 0; i < rows; i++)
-        for(int j = 0; j < colums; j++)
+        for(int j = 0; j < columns; j++)
             newArray[i,j] = new Random().Next(minValue,maxValue +1);
     
     return newArray;
@@ -102,7 +99,7 @@ void Show2dArray(int[,] array)
     }
     Console.WriteLine();
 }
-int SumLineElements(int[,] array, int i)  //--------Суммируем строки массива и выводим в консоль для наглядности
+int SumLineElements(int[,] array, int i) 
 {
     int sumLine = 0;
     
@@ -110,11 +107,11 @@ int SumLineElements(int[,] array, int i)  //--------Суммируем стро�
     {
         sumLine += array[i,j];
     }
-    Console.WriteLine($"Сумма элементов по {i} строке:  {sumLine};");
+    Console.WriteLine($"The sum of the numbers in line {i} is:  {sumLine};");
       
     return sumLine;
 }
-void MinSumElements(int[,] array)        //--------Из найденных сумм создаем массив, находим наименьшую сумму и выводим в консоль индекс строки с наименьшей суммой
+void MinSumElements(int[,] array)        
 {
     int minSumLine = 0;
     int sumLine = SumLineElements(array, 0);
@@ -127,12 +124,12 @@ void MinSumElements(int[,] array)        //--------Из найденных су�
             minSumLine = i;
         }
     }
-    Console.WriteLine($"\n{minSumLine} - строкa с наименьшей суммой ({sumLine}) элементов ");
+    Console.WriteLine($"\n{minSumLine} - is the line with the smallest sum of elements ({sumLine})  ");
 }
 int[,] newArray = CreateRandome2dArray();
 Show2dArray(newArray);
-MinSumElements(newArray);*/
-
+MinSumElements(newArray);
+*/
 
 //-----Задача 58: Задайте две матрицы. Напишите программу, которая будет находить произведение двух матриц.
 
