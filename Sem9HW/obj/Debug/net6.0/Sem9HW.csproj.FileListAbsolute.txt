@@ -1,0 +1,15 @@
+/Users/anastasiaaverkina/Desktop/MyLessons/MyLessonsCS/Sem9HW/bin/Debug/net6.0/Sem9HW
+/Users/anastasiaaverkina/Desktop/MyLessons/MyLessonsCS/Sem9HW/bin/Debug/net6.0/Sem9HW.deps.json
+/Users/anastasiaaverkina/Desktop/MyLessons/MyLessonsCS/Sem9HW/bin/Debug/net6.0/Sem9HW.runtimeconfig.json
+/Users/anastasiaaverkina/Desktop/MyLessons/MyLessonsCS/Sem9HW/bin/Debug/net6.0/Sem9HW.dll
+/Users/anastasiaaverkina/Desktop/MyLessons/MyLessonsCS/Sem9HW/bin/Debug/net6.0/Sem9HW.pdb
+/Users/anastasiaaverkina/Desktop/MyLessons/MyLessonsCS/Sem9HW/obj/Debug/net6.0/Sem9HW.csproj.AssemblyReference.cache
+/Users/anastasiaaverkina/Desktop/MyLessons/MyLessonsCS/Sem9HW/obj/Debug/net6.0/Sem9HW.GeneratedMSBuildEditorConfig.editorconfig
+/Users/anastasiaaverkina/Desktop/MyLessons/MyLessonsCS/Sem9HW/obj/Debug/net6.0/Sem9HW.AssemblyInfoInputs.cache
+/Users/anastasiaaverkina/Desktop/MyLessons/MyLessonsCS/Sem9HW/obj/Debug/net6.0/Sem9HW.AssemblyInfo.cs
+/Users/anastasiaaverkina/Desktop/MyLessons/MyLessonsCS/Sem9HW/obj/Debug/net6.0/Sem9HW.csproj.CoreCompileInputs.cache
+/Users/anastasiaaverkina/Desktop/MyLessons/MyLessonsCS/Sem9HW/obj/Debug/net6.0/Sem9HW.dll
+/Users/anastasiaaverkina/Desktop/MyLessons/MyLessonsCS/Sem9HW/obj/Debug/net6.0/refint/Sem9HW.dll
+/Users/anastasiaaverkina/Desktop/MyLessons/MyLessonsCS/Sem9HW/obj/Debug/net6.0/Sem9HW.pdb
+/Users/anastasiaaverkina/Desktop/MyLessons/MyLessonsCS/Sem9HW/obj/Debug/net6.0/Sem9HW.genruntimeconfig.cache
+/Users/anastasiaaverkina/Desktop/MyLessons/MyLessonsCS/Sem9HW/obj/Debug/net6.0/ref/Sem9HW.dll
